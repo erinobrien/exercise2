@@ -1,0 +1,79 @@
+
+body {
+    width: 100%;
+    font-family: 'avenir';
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #ECCCD2;
+    font-size: 1.5em;
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color:#ECCCD2;
+    color: black;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+
+@media (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+footer h5 {
+    margin-left: 10%;
+}
+
+
+
+
+}
